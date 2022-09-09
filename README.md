@@ -29,10 +29,15 @@ file named <strong>activity_main. </strong> <br><br>
   the UI accordingly by following these steps: </p>
   
  <strong>Step 1:</strong> Add the dependencies in the <strong>build.gradle.</strong> <br>
-             <strong> implementation "androidx.window:window:1.0.0-alpha01" </strong> <br>
+```
+implementation "androidx.window:window:1.0.0-alpha01"
+```
  
   <strong>Step 2:</strong> Define a <strong>WindowManager</strong> instance. <br>
-             <strong> val windowManager = WindowManager(this, null) </strong> <br>
+  
+```
+val windowManager = WindowManager(this, null)
+```
 
 
    <strong> Step 3:</strong> Register the <strong>DeviceState</strong> change listener. The listener notices changes in the device state 
